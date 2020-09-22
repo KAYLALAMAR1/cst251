@@ -1,0 +1,42 @@
+body {
+    font-family: Trebuchet, Georgia, Lucida, "san serif";
+    background-color: powderblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+    font-size: 130%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: antiquewhite;
+    border: solid 6px #333333;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "Futura", monospace;
+}
+p {
+	color: maroon;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+
+img {
+    float: right;
+    width: 400px;
+    margin-left: 40px;
+    border: solid 3px #333333;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
