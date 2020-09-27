@@ -1,0 +1,63 @@
+body {
+    font-family: Trebuchet, Georgia, Lucida, "san serif";
+    background-color: midnightblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+    font-size: 130%;
+
+}
+
+div#content {
+    padding: 50px;
+    background-color: black;
+    border: solid 6px #FFF5EE;
+    height: 80vh;
+}
+
+h1.single {
+  font-family: "Candice", monospace;
+}
+
+h1, h2, h3 {
+  font-family: "Shrikhand", monospace;
+    color: seashell;
+}
+h2.callout {
+color: RoyalBlue;
+}
+
+p {
+  font-family: "Futura", monospace;
+	color: seashell;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+h1 mark {
+  background-color: midnightblue;
+  color: seashell;
+}
+
+
+img {
+    float: right;
+    width: 300px;
+    margin-left: 40px;
+    border: solid 5px #FFF5EE;
+    height: auto;
+}
+
+img:hover {
+  transition: transform .2s;
+  transform: scale(1.3);
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
