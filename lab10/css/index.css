@@ -1,0 +1,71 @@
+body {
+    font-family: Trebuchet, Georgia, Lucida, "san serif";
+    background-color: #170312;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 40px;
+    font-size: 130%;
+
+}
+
+div#content {
+    padding: 60px;
+    margin-left: 70;
+    margin-right: 70;
+    background-color: #33032F;
+    border: solid 12px #531253;
+    height: 80vh;
+}
+
+h1.single {
+  font-family: "Shrikhand", monospace;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h1, h2, h3 {
+  font-family: "Shrikhand", monospace;
+  text-align: center;
+  letter-spacing: 3px;
+    color: #A0ACAD;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-align: center;
+	color: #97D8B2;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+img {
+  display: block;
+    float: right;
+    width: 310px;
+    margin-left: 100px;
+    margin-right: 322px;
+    border: solid 5px #531253;
+    height: auto;
+}
+
+img:hover {
+  transition: transform .2s;
+  transform: scale(1.3);
+}
+
+a {
+    text-decoration: none;
+    color: #A0ACAD;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
