@@ -1,0 +1,97 @@
+div#number {
+padding-top: 1px;
+text-align: center;
+font-size: 125px;
+margin-top: 40px;
+margin-bottom: 50px;
+height: 200px;
+position: relative;
+}
+
+div#beach {
+margin-left: 300px;
+margin-top: 40px;
+z-index: -1;
+padding-bottom: 2px;
+}
+
+div#summer {
+margin-left: 620px;
+width: 33%;
+font-size: 20px;
+}
+
+div#branded {
+margin-left: 452px;
+margin-top: 150px;
+font-size: 16px;
+}
+
+p {
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 5px;
+  color: #000000
+}
+
+h1.hike {
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 2px;
+  font-size: 18px;
+}
+
+h2.percentage {
+  padding-top: 1px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #FFFFFF;
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+div#button {
+margin-left: 474px;
+text-align: center;
+text-decoration: none;
+display: inline-block
+}
+.button2 {
+  text-transform: uppercase;
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid #000000;
+  width: 172px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.button1 {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #000000;
+  border-radius: 16px;
+  border: 1px solid #000000;
+  width: 172px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -3;
+  height: 100%;
+  width: 100%;
+}

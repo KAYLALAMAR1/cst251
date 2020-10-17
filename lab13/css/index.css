@@ -1,0 +1,84 @@
+body {
+    font-family: Trebuchet, Georgia, Lucida, "san serif";
+    background-color: #4C191B;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 40px;
+    font-size: 130%;
+
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
+
+div#content {
+    padding: 60px;
+    margin-left: 70;
+    margin-right: 70;
+    background-color: #963D5A;
+    border: solid 12px #E3DAFF;
+    height: 80vh;
+}
+
+div#sidebar {
+  display: inline-block;
+  width: 34%;
+  min-width: 300px;
+  margin-left: 750px;
+}
+
+div#links {
+  position: sticky;
+left: 30px;
+border: 3px solid #E3DAFF;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h1, h2, h3 {
+  font-family: "Shrikhand", monospace;
+  text-align: center;
+    color: #4C191B;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+p {
+  font-family: "Futura", monospace;
+  font-size: 30px;
+  text-align: center;
+	color: #E3DAFF;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+img {
+  display: block;
+    float: right;
+    width: 270px;
+    margin-left: 100px;
+    margin-right: 330px;
+    border: solid 5px #E3DAFF;
+    height: auto;
+}
+
+img:hover {
+  transition: transform .2s;
+  transform: scale(1.3);
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
