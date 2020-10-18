@@ -9,7 +9,8 @@ position: relative;
 }
 
 div#beach {
-margin-left: 300px;
+  position: absolute;
+margin-left: 385px;
 margin-top: 40px;
 z-index: -1;
 padding-bottom: 2px;
@@ -23,7 +24,7 @@ font-size: 20px;
 
 div#branded {
 margin-left: 452px;
-margin-top: 150px;
+margin-top: 217px;
 font-size: 16px;
 }
 
@@ -33,7 +34,8 @@ p {
   color: #000000
 }
 
-h1.hike {
+p.hike {
+  display: block;
   font-family: 'Noto Sans KR', sans-serif;
   padding-bottom: 2px;
   font-size: 18px;
