@@ -1,0 +1,102 @@
+body {
+    font-family: Trebuchet, Georgia, Lucida, "san serif";
+    background-color: #170312;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 40px;
+    font-size: 130%;
+}
+
+@keyframes example {
+  from {color: #A0ACAD;}
+  to {color: #FFFFB7;}
+}
+
+div#content1 {
+  padding: 60px;
+  margin-left: 70;
+  margin-right: 70;
+  background-color: #33032F;
+  border: solid 12px #531253;
+  height: 80vh;
+  background-image: url(nightsky.gif);
+ background-position: left top;
+ background-repeat: repeat;
+}
+
+p.columns {
+  column-count: 2;
+}
+
+div#content {
+    padding: 60px;
+    margin-left: 70;
+    margin-right: 70;
+    background-color: #33032F;
+    border: solid 12px #531253;
+    height: 80vh;
+    width: 50%;
+ height: 100%;
+ transition: width 2s;
+}
+
+div#content:hover {
+ width: 100%;
+ border-color: #FFFFB7;
+}
+
+h1.single {
+  font-family: "Shrikhand", monospace;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 55px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+h1, h2, h3 {
+  font-family: "Shrikhand", monospace;
+  text-align: center;
+  letter-spacing: 3px;
+    color: #A0ACAD;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+p {
+  font-family: "Futura", sans-serif;
+  font-size: 30px;
+  text-align: center;
+	color: #97D8B2;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+img {
+  display: block;
+    float: right;
+    width: 310px;
+    margin-left: 100px;
+    margin-right: 322px;
+    border: solid 5px #531253;
+    height: auto;
+}
+
+img:hover {
+  transition: transform .2s;
+  transform: scale(1.3);
+}
+
+a {
+    text-decoration: none;
+    color: #A0ACAD;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
