@@ -55,6 +55,17 @@ img {
     object-fit: cover;
 }
 
+img#sketch {
+  display: block;
+    float: right;
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 250px;
+    border: solid 5px #542344;
+    height: 300px;
+    object-fit: cover;
+}
+
 img:hover {
   transition: transform .2s;
   transform: scale(1.3);
